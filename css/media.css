@@ -1,0 +1,268 @@
+@media (max-width: 1270px) {
+    .products__title {
+        font-size: 40px;
+    }
+
+    .products__card-title {
+        font-size: 24px;
+    }
+
+    .products__taste {
+        font-size: 16px;
+    }
+
+    .products__top {
+        padding: 30px;
+    }
+
+    .products__top::before,
+    .products__top::after {
+        width: 80px;
+        height: 55px;
+        top: 24px;
+    }
+
+    .products__decorative {
+        display: none;
+    }
+
+    .products__card {
+        min-height: 0;
+    }
+
+    .story__left {
+        width: 40%;
+    }
+
+    .story__right {
+        width: 60%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .menu__link {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .menu__list-left {
+        justify-content: flex-start;
+        margin-right: 0;
+    }
+
+    .menu__list-right {
+        justify-content: flex-end;
+        margin-left: 0;
+    }
+
+    .breadcrumbs-link {
+        min-width: 115px;
+    }
+
+    .hero__title {
+        font-size: 48px;
+        padding: 15px 20px;
+    }
+
+    .products__title {
+        font-size: 30px;
+    }
+
+    .products__top::before,
+    .products__top::after {
+        top: 18px;
+    }
+
+    .products__card-title {
+        font-size: 20px;
+    }
+
+    .products__taste {
+        font-size: 12px;
+    }
+
+    .story__inner {
+        flex-direction: column;
+    }
+
+    .story__left {
+        width: 100%;
+        border-right: none;
+    }
+
+    .story__right {
+        width: 100%;
+    }
+
+    .story__content {
+        padding-top: 20%;
+    }
+}
+
+@media (max-width: 900px) {
+    .hero__inner {
+        flex-direction: column;
+    }
+
+    .hero__left,
+    .hero__right {
+        width: 100%;
+    }
+
+    .hero__left {
+        border-right: none;
+    }
+
+    .hero__ujjo {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .products__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .products__card {
+        max-width: 350px;
+    }
+
+    .story__title {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 800px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        height: 100%;
+        padding: 20px 0;
+    }
+
+    .menu__list {
+        display: block;
+    }
+
+    .logo {
+        order: -1;
+    }
+
+    .products__title {
+        font-size: 20px;
+    }
+
+    .products__top::before,
+    .products__top::after {
+        top: 14px;
+    }
+
+    .story__title {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 700px) {
+    .footer__menu-list {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero__title {
+        font-size: 30px;
+    }
+
+    .products__top::before,
+    .products__top::after {
+        width: 50px;
+        height: 35px;
+        top: 22px;
+    }
+
+    .products__title {
+        font-size: 18px;
+    }
+
+    .products__top::before {
+        left: 10px;
+    }
+
+    .products__top::after {
+        right: 10px;
+    }
+
+    .story__text {
+        font-size: 14px;
+    }
+
+    .story__content {
+        padding-top: 25%;
+    }
+}
+
+@media (max-width: 480px) {
+    .products__title {
+        font-size: 16px;
+    }
+
+    .products__top::before,
+    .products__top::after {
+        width: 30px;
+        height: 21px;
+        top: 27px;
+    }
+
+    .story__content {
+        background-image: none;
+        padding: 10px;
+    }
+
+    .story__title {
+        font-size: 30px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero__title {
+        font-size: 20px;
+        padding: 10px 15px;
+    }
+
+    .hero__img {
+        padding: 10px;
+    }
+
+    .products__title {
+        font-size: 15px;
+    }
+
+    .products__top::before {
+        left: 0;
+    }
+
+    .products__top::after {
+        right: 0;
+    }
+
+    .products__card {
+        max-width: 250px;
+    }
+
+    .products__card-title {
+        font-size: 16px;
+    }
+
+    .products__taste {
+        font-size: 10px;
+    }
+
+    .story__text:not(:last-child) {
+        margin-bottom: 12px;
+    }
+}
